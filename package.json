@@ -1,0 +1,25 @@
+{
+  "name": "my-site",
+  "version": "1.0.0",
+  "description": "My site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mystic008/my-site.git"
+  },
+  "author": "Mystic008",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mystic008/my-site/issues"
+  },
+  "homepage": "https://github.com/Mystic008/my-site#readme",
+  "dependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
